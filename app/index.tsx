@@ -4,9 +4,9 @@ import {
   Text,
   TextInput,
   View,
-  TouchableOpacity,
-  ImageBackground
+  TouchableOpacity
 } from "react-native";
+import { ImageBackground } from "expo-image";
 
 export default function Index() {
   const [height, setHight] = useState("");
@@ -34,7 +34,7 @@ export default function Index() {
 
   return (
     <ImageBackground
-      source={require("@/assets/bg.png")}
+      source={require("@/assets/bg.svg")}
       style={{ width: "100%", height: "100%" }}
     >
       <View style={styles.container}>
