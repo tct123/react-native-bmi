@@ -8,15 +8,15 @@ import {
   ImageBackground
 } from "react-native";
 
-export default class App extends React.Component {
-  state = {
+export default function Index() {
+  const state = {
     height: 0,
     mass: 0,
     resultNumber: 0,
     resultText: ""
   };
 
-  handleCalculate = () => {
+  const handleCalculate = () => {
     let imc = (this.state.mass * 703) / this.state.height ** 2;
     this.setState({
       resultNumber: imc.toFixed(2)
@@ -33,7 +33,6 @@ export default class App extends React.Component {
     }
   };
 
-  render() {
     return (
       <ImageBackground
         source={require("@/assets/bg.png")}
@@ -84,7 +83,7 @@ export default class App extends React.Component {
       </ImageBackground>
     );
   }
-}
+
 
 const styles = StyleSheet.create({
   container: {
