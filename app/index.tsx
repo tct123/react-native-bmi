@@ -36,7 +36,7 @@ export default class App extends React.Component {
   render() {
     return (
       <ImageBackground
-        source={require("./assets/bg.png")}
+        source={require("@/assets/bg.png")}
         style={{ width: "100%", height: "100%" }}
       >
         <View style={styles.container}>
