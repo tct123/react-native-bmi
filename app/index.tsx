@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     color: "#FFCB1F"
   },
   button: {
-    //backgroundColor: "#1D1D1B"
+    // backgroundColor: "#1D1D1B"
   },
   buttonText: {
     alignSelf: "center",
