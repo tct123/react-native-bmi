@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 1151 2048" width="375" height="667" xmlns="http://www.w3.org/2000/svg">
 <path transform="translate(0)" d="m0 0h1151v2048h-1151z" fill="#1F1E1D"/>
-<path transform="translate(941,1307)" d="m0 0h210v72h-213l-14-7-7-8-5-11-1-4v-12l4-11 4-6 8-7 10-5z" fill="#534820"/>
-<path transform="translate(0,1553)" d="m0 0h145l10 3 9 6 6 7 5 12v16l-4 9-6 8-7 6-8 4-5 1h-145z" fill="#534820"/>
-<path transform="translate(0,1792)" d="m0 0h141l10 2 10 5 5 4 6 9 3 9v15l-4 10-7 9-9 6-7 3h-148z" fill="#534820"/>
-<path transform="translate(1047,1427)" d="m0 0h104v72h-105l-14-7-8-9-4-8-1-4v-17l5-11 6-7 11-7z" fill="#534820"/>
-<path transform="translate(1053,1187)" d="m0 0h98v72h-106l-12-6-8-8-5-10-1-4v-17l6-12 7-7 10-6z" fill="#534820"/>
-<path transform="translate(0,1673)" d="m0 0h39l11 4 9 7 6 9 3 10v12l-4 10-6 8-8 7-9 4-33 1-8-1z" fill="#534820"/>
+<path transform="translate(941,1307)" d="m0 0h210v72h-213l-14-7-7-8-5-11-1-4v-12l4-11 4-6 8-7 10-5z" fill="#edbc0c"/>
+<path transform="translate(0,1553)" d="m0 0h145l10 3 9 6 6 7 5 12v16l-4 9-6 8-7 6-8 4-5 1h-145z" fill="#edbc0c"/>
+<path transform="translate(0,1792)" d="m0 0h141l10 2 10 5 5 4 6 9 3 9v15l-4 10-7 9-9 6-7 3h-148z" fill="#edbc0c"/>
+<path transform="translate(1047,1427)" d="m0 0h104v72h-105l-14-7-8-9-4-8-1-4v-17l5-11 6-7 11-7z" fill="#edbc0c"/>
+<path transform="translate(1053,1187)" d="m0 0h98v72h-106l-12-6-8-8-5-10-1-4v-17l6-12 7-7 10-6z" fill="#edbc0c"/>
+<path transform="translate(0,1673)" d="m0 0h39l11 4 9 7 6 9 3 10v12l-4 10-6 8-8 7-9 4-33 1-8-1z" fill="#edbc0c"/>
 </svg>
