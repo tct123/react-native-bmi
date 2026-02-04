@@ -1,0 +1,31 @@
+<svg width="100%" height="100%" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121212" />
+      <stop offset="100%" stop-color="#1D1D1B" />
+    </linearGradient>
+
+    
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFCB1F" />
+    </linearGradient>
+
+    
+    <pattern id="geometricPattern" patternUnits="userSpaceOnUse" width="200" height="200">
+      <path d="M0,0 L200,0 L200,100 L100,200 L0,100 Z" fill="url(#goldGradient)" opacity="0.1" />
+      <path d="M200,100 L200,200 L100,200 Z" fill="url(#goldGradient)" opacity="0.1" />
+    </pattern>
+  </defs>
+
+  
+  <rect width="100%" height="100%" fill="url(#darkGradient)" />
+
+  
+  <rect width="100%" height="100%" fill="url(#geometricPattern)" />
+
+  
+  <circle cx="100" cy="100" r="50" fill="url(#goldGradient)" opacity="0.05" />
+  <circle cx="300" cy="700" r="70" fill="url(#goldGradient)" opacity="0.05" />
+</svg>
