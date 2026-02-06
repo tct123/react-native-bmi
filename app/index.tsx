@@ -38,17 +38,6 @@ export default function Index() {
       style={{ width: "100%", height: "100%" }}
     >
       <View style={styles.container}>
-        <Text
-          style={{
-            color: "#FFCB1F",
-            justifyContent: "center",
-            alignSelf: "center",
-            marginTop: 30,
-            fontSize: 15
-          }}
-        >
-          BMI Calculator
-        </Text>
         <View style={styles.intro}>
           <TextInput
             placeholder="Height"
