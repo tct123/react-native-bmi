@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import { ExperimentalStack as Stack } from "expo-router";
 import { DeviceType } from "expo-device";
 
 function checktablet() {
@@ -18,9 +18,5 @@ function setorientation() {
 export default function RootLayout() {
   return <Stack screenOptions={{
     title: "BMI Calculator",
-    headerStyle: {
-      backgroundColor: "#FFCB1F"
-    },
-    orientation: setorientation()
   }} />;
 }

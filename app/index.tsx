@@ -34,7 +34,7 @@ export default function Index() {
 
   return (
     <ImageBackground
-      source={{ uri: "@/assets/bg.svg" }}
+      source={{ uri: "@/assets/bg.png" }}
       style={{ width: "100%", height: "100%" }}
     >
       <View style={styles.container}>
